@@ -24,6 +24,7 @@ npm install -g @xtalpi/agentic-lab-cli@latest
 ## Step 3：运行初始化命令
 
 **⚠️ 重要：你必须严格运行下面这条命令，不得修改、替换或省略 `--ui` 参数。不要尝试用"非交互模式"或者自行拼参数来"加速"这个过程——`--ui` 是唯一正确的初始化方式。**
+**⚠️ 重要：~/.lab/storage/config以及config内的配置文件是默认存在，不要以此来判断是否已完成初始化。初始化这一步不可跳过**
 
 ```bash
 lab init --ui
